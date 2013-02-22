@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ci" default="work">
+
+    <target name="work" description="default integration task">
+        <echo>Continues Integration</echo>
+    </target>
+
+    <target name="run.tests" description="invoke tests">
+        <!-- adb shell am instrument -w de.kayklein.tests/android.test.InstrumentationTestRunner -->
+    </target>
+
+</project>
